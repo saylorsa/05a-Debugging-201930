@@ -6,7 +6,7 @@ does not do the right thing.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Valerie Galluzzi, Mark Hays, Amanda Stouder, Aaron Wilkin,
-         their colleagues, and PUT_YOUR_NAME_HERE.
+         their colleagues, and Shane Saylor.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
