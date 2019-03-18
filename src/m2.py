@@ -200,7 +200,7 @@ def broken_3(n, point, length, distance_between_lines, window):
 
 
 # -----------------------------------------------------------------------------
-# TODO: 6. Follow the INSTRUCTIONS AT THE TOP OF THIS MODULE
+# DONE: 6. Follow the INSTRUCTIONS AT THE TOP OF THIS MODULE
 #          to correct the mistake(s) in the following function.
 # -----------------------------------------------------------------------------
 def broken_4(x, y, radius, window):
@@ -219,7 +219,7 @@ def broken_4(x, y, radius, window):
       :type radius: int
       :type window: rg.RoseWindow
       """
-    line = rg.Line(rg.Point(x, y), radius)
+    line = rg.Circle(rg.Point(x, y), radius)
     line.fill_color = 'green'
     line.attach_to(window)
     window.render()
