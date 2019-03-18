@@ -15,7 +15,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 2. READ these instructions, ASKING QUESTIONS as needed.
+# DONE: 2. READ these instructions, ASKING QUESTIONS as needed.
 #
 #   This module contains "broken" functions, as in m1.py.
 #   FOLLOW THE SAME STEPS as in the instructions of m1.py
@@ -253,7 +253,7 @@ def broken_5(circle, window):
 
 
 # -----------------------------------------------------------------------------
-# TODO: 8. Follow the INSTRUCTIONS AT THE TOP OF THIS MODULE
+# DONE: 8. Follow the INSTRUCTIONS AT THE TOP OF THIS MODULE
 #          to correct the mistake(s) in the following function.
 # -----------------------------------------------------------------------------
 def broken_6(n):
@@ -265,7 +265,7 @@ def broken_6(n):
     """
     total = 0
     for k in range(n):
-        total.x = total.x + (1 / (k + 1))
+        total = total + (1 / (k + 1))
 
     return total
 
